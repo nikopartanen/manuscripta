@@ -2,7 +2,7 @@
 
 import xml.etree.cElementTree as ET
 
-from PIL import Image
+from PIL import Image, ImageDraw
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
