@@ -57,7 +57,7 @@ for document in response.json():
 
 doc_id = '0000'
 
-document = requests.get(f"https://transkribus.eu/TrpServer/rest/collections/{doc_id}/{col_id}/fulldoc", cookies=cookies)
+document = requests.get(f"https://transkribus.eu/TrpServer/rest/collections/{col_id}/{doc_id}/fulldoc", cookies=cookies)
 
 # Let's say we want to save all ground truth pages as files, as we often want to do 
 # when we train models locally
